@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vložení nové knihy</title>
+</head>
+<body>
+	<h2>Vložení nové knihy</h2>
+	<p>Vyplňte následující údaje a stiskněte Vložit</p>
+	<form method="post" action="http://localhost:9999/Servlet1/insert-servlet">
+		<p>Název knihy:<br>
+		<input type="text" name="title"></p>
+		<p>Autor:<br>
+		<input type="text" name="author"></p>
+		<p>Cena:<br>
+		<input type="text" name="price"></p>
+		<p>Množství:<br>
+		<input type="text" name="qty"></p>
+		<p><input type="submit" value="Vložit"></p>
+	</form>
+
+</body>
+</html>
